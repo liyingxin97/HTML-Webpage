@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- site template 
+By Tina
+Date : Sept.22
+-->
+<html>
+<head>
+<center><title>Can't wait?Sign Up RightNow Page</center></title>
+<meta charset="utf-8">
+<link href="style\style.css" rel="stylesheet">
+</head>
+<style>
+        body		{
+                     background-image: url(back.jpg);}
+</style>
+<body>
+    <div id="wrapper">
+	<header><h1>STARNOW</h1>
+    		<h2><i>BE YOUR OWN STAR!</i></h2>
+    
+	</header>
+    <nav>
+    	<li><a href = "Page1.html"> Who's Us? </a></li>
+        <li><b><font size="+2">Can't wait?Sign Up RightNow  </font> </b>		  </li>
+        <li><a href = "Page3.html">Who Will Be Your teacher?</a>
+	</nav><br>
+   
+    
+<main>
+    <form name = "issue" method = "post"action = "http://wevdevbasics.net/scripts/demo.php">
+    <label>
+    	 
+       Name:
+        <input type = "text"
+        name = "user" required>
+        </label>
+        <br>
+		Email:
+        <input type = "text"
+        name = "email" required>
+        <br>
+     
+        <label>
+        	
+            Male<input type = "radio" name = "issue"value = "male">
+            <br>
+            Female<input type = "radio" name = " issue"value = "female">
+            <br>
+            Others<input type = "radio" name = " issue"value = "others">
+            <br>
+		</label>
+        <input type = "submit"name = "submit"value="Submit">
+         <input type = "reset"name = "submit"value="Reset">
+        </form>
+        <h3>It's today!</h3>
+				<button onclick="dateDisplay();">Check today's date</button>
+				<button onclick="clock();">See the clock</button>
+				<h1 id="timeOutput"></h1>
+    </main>
+</div>
+<script src="script\script.js"></script>
+
+</body>
+</html>
+
+
+
