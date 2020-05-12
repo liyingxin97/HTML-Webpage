@@ -1,0 +1,79 @@
+/*Class work 10-25*/
+	body		{
+        		 background-image: url(back.jpg);
+                 background-size: 100%;
+                 background-repeat: no-repeat;
+        			color: #000000;
+                 	
+                    font-family:Constantia,
+                    sans-serif;
+				}
+    @font-face{
+    			src:url(fonts/FjallaOne-Regular.ttf);
+                font-family.nos;
+               }
+        		 
+                 
+    header		{background-color: #ff00bf;
+    			  color: #ffd6cc;
+                  border: 3px soild red;
+                  text-shadow: 3px 2px red;
+                  font-size: 20px;
+                  border-radius: 90px;
+    			  margin-bottom: 50px;
+                  }
+    header, nav,footer {  text-align:center;}
+
+
+                  
+    h1		{background-color: #9900e6;
+    		 border-radius: 10px;
+             font-size: 40px;
+             margin:0;
+    		}
+            
+    h2		{font-style:italic;
+        	}
+            
+    h3		{background-color:#ffcccc;
+    			color: #cc6600;
+                font-size:20px;
+                border-radius: 10px;
+                padding:5px;
+             }
+    footer  {background-color: #ffff99;
+    		 font-size:15px;
+             
+    		}
+    body    {
+                    width: 80%;
+                    marginl: auto;
+                    margin-top: 30px;
+             }
+            
+     a 		   {background-color: #ff9933;
+        		background-size: contain;
+                
+        		 color: #000099;
+                 line-height: 60px;
+                 font-size: 20px;
+                 border:5px outset #000;
+                 border-radius: 40px;
+        		 padding: 10px;
+                 margin: 10px; 
+               
+                 text-decoration: none;
+        		}
+                
+       a:hover { background-color: #ffb3b3;
+        		  color: #f39;
+           		  border: 3px inset: #000;
+                  
+        		} 		          
+                
+       main    {background-color: #ff9999;
+		border-radius: 10px;
+                font-size: 20px;
+                }       
+                
+        
